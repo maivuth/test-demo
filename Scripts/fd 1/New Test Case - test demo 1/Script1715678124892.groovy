@@ -18,4 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
+
+WebUI.click(findTestObject('Web/lbl_info', [('value') : 'sdfff']), FailureHandling.OPTIONAL)
+
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+
